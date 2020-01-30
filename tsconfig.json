@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "esnext",
+    "jsx": "react",
+    "jsxFactory": "jsx",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "allowJs": true,
+    "strict": true,
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "rootDir": "src",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true
+  }
+}
