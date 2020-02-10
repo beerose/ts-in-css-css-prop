@@ -10,7 +10,7 @@
   "editor.fontWeight": "500", // <
 
   // minimize distractions
-  "window.title": "${dirty} Persistent data structures thanks to recursive type aliases${separator}${activeEditorShort}",
+  "window.title": "${dirty} CSS prop${separator}${activeEditorShort}",
   "window.menuBarVisibility": "hidden",
   "editor.renderIndentGuides": false,
   "workbench.statusBar.visible": false,
