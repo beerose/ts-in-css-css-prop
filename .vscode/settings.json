@@ -1,3 +1,33 @@
 {
-  "editor.fontSize": 14
+  // You can use comments in this file 😲
+
+  // similar to GitHub theme
+  "workbench.colorTheme": "GitHub Plus",
+
+  // make it big
+  "editor.fontSize": 18, // <
+  "editor.lineHeight": 36, // <
+  "editor.fontWeight": "500", // <
+
+  // minimize distractions
+  "window.title": "${dirty} Persistent data structures thanks to recursive type aliases${separator}${activeEditorShort}",
+  "window.menuBarVisibility": "hidden",
+  "editor.renderIndentGuides": false,
+  "workbench.statusBar.visible": false,
+  "workbench.activityBar.visible": false,
+  "typescript.referencesCodeLens.enabled": false,
+  "typescript.implementationsCodeLens.enabled": false,
+
+  // Quokka
+  "quokka.showOutputOnStart": false,
+  "quokka.compactMessageOutput": false,
+
+  "[markdown]": {
+    "editor.formatOnSave": false
+  },
+
+  // need this one for 04.ts and 05.ts
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typelens.showReferencesForClasses": false,
+  "prettier.printWidth": 60
 }
